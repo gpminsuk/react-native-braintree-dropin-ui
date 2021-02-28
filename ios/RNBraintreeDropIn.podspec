@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.dependency    'React'
   s.dependency    'Braintree'
-  s.dependency    'BraintreeDropIn'
+  s.dependency    'BraintreeDropIn', :git => 'https://github.com/gpminsuk/braintree-ios-drop-in.git'
   s.dependency    'Braintree/DataCollector'
   s.dependency    'Braintree/Apple-Pay'
   s.dependency    'Braintree/Venmo'
